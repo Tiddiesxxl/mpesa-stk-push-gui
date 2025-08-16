@@ -7,40 +7,40 @@
 A beautiful, feature-rich terminal-based GUI for processing M-Pesa STK Push payments using the SWIFT-WALLET API. Built with PHP, featuring real-time callbacks, comprehensive error handling, and professional transaction management.
 
 
-## ✨ Features
+## Features
 
-### 🎨 **Beautiful Terminal Interface**
+### Beautiful Terminal Interface**
 - Colorful, intuitive menus and forms
 - Real-time payment animations
 - Professional error displays with suggestions
 - Progress indicators and status updates
 
-### 📱 **Enhanced Phone Number Support**
+### Enhanced Phone Number Support**
 - **01XXXXXXXX** - Safaricom services (0100-0129)
 - **07XXXXXXXX** - Safaricom mobile (0701-0729, 0740-0749, 0790-0799)
 - **254XXXXXXXXX** - International format
 - Automatic validation and formatting
 
-### 🔄 **Real-Time Callback Integration**
+### Real-Time Callback Integration**
 - Instant payment confirmations
 - M-Pesa receipt capture
 - Service fee tracking
 - 2-minute timeout with graceful handling
 - Comprehensive webhook logging
 
-### 💼 **Professional Features**
+### Professional Features**
 - **Bulk Payment Processing** - CSV upload for multiple payments
 - **Transaction History** - Detailed logs with filtering and export
 - **Error Code Reference** - Complete SWIFT-WALLET error documentation
 - **Account Management** - API key management and validation
 
-### 🛡️ **Security & Reliability**
+### 🛡Security & Reliability**
 - HTTPS-only callback endpoints
 - Comprehensive input validation
 - Secure API key storage
 - Error handling for all scenarios
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - PHP 7.0+ with cURL extension
@@ -51,7 +51,7 @@ A beautiful, feature-rich terminal-based GUI for processing M-Pesa STK Push paym
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/mpesa-stk-push-gui.git
+   git clone https://github.com/Tiddiesxxl/mpesa-stk-push-gui.git
    cd mpesa-stk-push-gui
    ```
 
@@ -75,7 +75,7 @@ A beautiful, feature-rich terminal-based GUI for processing M-Pesa STK Push paym
    php mpesa_stk_gui.php
    ```
 
-## 📖 Usage
+## Usage
 
 ### Basic Payment Flow
 1. **Select "Initiate STK Push Payment"**
@@ -105,7 +105,7 @@ phone_number,amount,customer_name,reference
 - **Filter by Status** - Success/Failed transactions
 - **CSV Export** - Download transaction reports
 
-## 🔧 Configuration
+## Configuration
 
 ### API Key Setup
 ```php
@@ -119,7 +119,7 @@ $apiKey = 'your_swift_wallet_api_key_here';
 $callbackUrl = 'https://yourdomain.com/callback.php';
 ```
 
-## 🌐 Callback Integration
+## Callback Integration
 
 ### Setup Webhook Endpoint
 1. **Upload `callback.php`** to your web server
@@ -137,7 +137,7 @@ $callbackUrl = 'https://yourdomain.com/callback.php';
 - ✅ Comprehensive error logging
 - ✅ Automatic transaction updates
 
-## 📊 Error Handling
+## Error Handling
 
 ### HTTP Status Codes
 | Code | Meaning | Description |
@@ -151,7 +151,7 @@ $callbackUrl = 'https://yourdomain.com/callback.php';
 ### Smart Error Suggestions
 The application provides context-aware troubleshooting tips for each error type.
 
-## 🧪 Testing
+## Testing
 
 ### Test Callback Functionality
 ```bash
@@ -163,7 +163,7 @@ php test_callback.php
 php demo.php
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mpesa-stk-push-gui/
@@ -180,7 +180,7 @@ mpesa-stk-push-gui/
 └── LICENSE               # MIT License
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -191,36 +191,30 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 - Performance optimizations
 - Documentation improvements
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## Support
 
 ### Getting Help
-- 📚 **Documentation**: Check the [README](README.md) and [Deployment Guide](DEPLOYMENT_GUIDE.md)
-- 🐛 **Bug Reports**: Open an [issue](https://github.com/yourusername/mpesa-stk-push-gui/issues)
-- 💡 **Feature Requests**: Use [GitHub Discussions](https://github.com/yourusername/mpesa-stk-push-gui/discussions)
+- **Documentation**: Check the [README](README.md) and [Deployment Guide](DEPLOYMENT_GUIDE.md)
+- **Bug Reports**: Open an [issue](https://github.com/Tiddiesxxl/mpesa-stk-push-gui/issues)
+- **Feature Requests**: Use [GitHub Discussions](https://github.com/Tiddiesxxl/mpesa-stk-push-gui/discussions)
 
 ### SWIFT-WALLET Support
-- 🌐 **Website**: [swiftwallet.co.ke](https://swiftwallet.co.ke)
-- 📊 **Dashboard**: [swiftwallet.co.ke/dashboard](https://swiftwallet.co.ke/dashboard)
-- 📖 **API Docs**: Check your SWIFT-WALLET dashboard
+- **Website**: [swiftwallet.co.ke](https://swiftwallet.co.ke)
+- **Dashboard**: [swiftwallet.co.ke/dashboard](https://swiftwallet.co.ke/dashboard)
+- **API Docs**: Check your SWIFT-WALLET dashboard
 
-## 🏆 Acknowledgments
+## Acknowledgments
 
 - **SWIFT-WALLET** for providing the M-Pesa API integration
 - **Safaricom** for the M-Pesa platform
 - **PHP Community** for excellent documentation and tools
 
-## 🔗 Related Projects
+## Related Projects
 
 - [SWIFT-WALLET PHP SDK](https://github.com/swift-wallet/php-sdk)
 - [M-Pesa API Documentation](https://developer.safaricom.co.ke/)
 
----
-
-**Made with ❤️ for the Kenyan developer community**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/mpesa-stk-push-gui.svg?style=social&label=Star)](https://github.com/yourusername/mpesa-stk-push-gui)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/mpesa-stk-push-gui.svg?style=social&label=Fork)](https://github.com/yourusername/mpesa-stk-push-gui/fork)
