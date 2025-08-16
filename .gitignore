@@ -1,0 +1,46 @@
+# M-Pesa STK Push GUI - Git Ignore File
+
+# Configuration files with sensitive data
+config.php
+.env
+
+# Log files
+*.log
+callback_log.txt
+transactions.log
+
+# Transaction data
+callback_transactions.json
+transaction_export_*.csv
+sample_bulk_payments.csv
+
+# Temporary files
+tmp_*
+temp_*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP files
+vendor/
+composer.lock
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test files (optional - remove if you want to include them)
+test_*.php
+
+# Notification files
+notifications.json
