@@ -1,4 +1,4 @@
-# 🚀 M-Pesa STK Push Terminal GUI
+# M-Pesa STK Push Terminal GUI
 
 [![PHP Version](https://img.shields.io/badge/PHP-7.0%2B-blue.svg)](https://php.net)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -6,7 +6,6 @@
 
 A beautiful, feature-rich terminal-based GUI for processing M-Pesa STK Push payments using the SWIFT-WALLET API. Built with PHP, featuring real-time callbacks, comprehensive error handling, and professional transaction management.
 
-![M-Pesa STK Push GUI Demo](https://via.placeholder.com/800x400/1e3a8a/ffffff?text=M-Pesa+STK+Push+GUI)
 
 ## ✨ Features
 
